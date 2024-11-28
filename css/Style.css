@@ -1,0 +1,121 @@
+body {
+    height: 2000px;
+    width: 1200px;
+    font-family: "Bebas Neue", sans-serif;
+    color: aqua;
+    margin: 0px;
+    padding: 0px;
+    background: url('/images/pexels-anush-1431282.jpg'); 
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid white; */
+    position: absolute;
+    left: 22px;
+    top: 20px;
+}
+
+.left img {
+    width: 140px;
+    height: 100px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+.mid {
+    /* border: 2px solid white; */
+    display: block;
+    width: 60%;
+    margin: 27px auto;
+}
+
+.right {
+    /* border: 2px solid white; */
+    display: inline-block;
+    position: absolute;
+    right: 22px;
+    top: 20px;
+}
+
+.btn {
+    margin: 17px 8px;
+    padding: 12px 28px;
+    color: rgb(43, 157, 233);
+    background-color: black;
+    border: 2px solid hotpink;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(26, 25, 25);
+    color: rgb(43, 157, 233);
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 27px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 35px 35px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+}
+
+.container {
+    position: absolute;
+    border-radius: 15px;
+    right: 20%;
+    left: 8%;
+    border: 2px solid pink;
+    margin-top: 102px;
+    padding: 57px 10px;
+    width: 700px;
+    height: 400px;
+    margin-left: 41px;
+}
+.form-group input{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    display: block;
+    width: 350px;
+    padding: 2px;
+    margin: 8px auto;
+    border: 2px solid red;
+    border-radius: 8px;
+    font-size: 22px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+   text-align: center;
+   display: block;
+   margin: 28px auto;
+   width: 50%;
+}
+.container button:hover{
+    background-color: rgb(26, 25, 25);
+    color: rgb(43, 157, 233);
+}
